@@ -13,8 +13,8 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [Html](https://reactjs.org)
-- [Css](https://firebase.google.com/)
+- [Html]
+- [Css]
 
 ## :hammer_and_wrench: Como executar
 
