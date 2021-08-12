@@ -10,12 +10,68 @@ html, body {
   height: 100%;
 }
 
+h1, h2 {
+  font-family: var(--merriweather);
+  color: var(--black);
+}
+
+label {
+  font-family: var(--lato);
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: var(--black);
+  margin: 0.625rem 0;
+}
+
+button {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid var(--border);
+  border-radius: 5px;
+
+  padding: 1rem;
+  margin: 1rem 0 0;
+
+  font-family: var(--lato);
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: var(--primary);
+}
+
+button img {
+  margin-right: 0.625rem;
+}
+
+@media (max-width: 1280px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 300px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
 :root {
   --primary: #FFFFFF;
   --light: #F7FAFC;
   --blue: #2B6CB0;
   --green: #04C35C;
   --black: #1A202C;
+  --border: #E8E8E8;
 
   --lato: 'Lato', sans-serif;
   --merriweather: 'Merriweather', serif; 
