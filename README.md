@@ -13,8 +13,8 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [Html]
-- [Css]
+- Html
+- Css
 
 ## :hammer_and_wrench: Como executar
 
